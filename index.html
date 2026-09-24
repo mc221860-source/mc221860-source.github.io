@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para el amor de mi vida ❤️</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+
+            background:
+                radial-gradient(circle at 20% 20%, #9b59b6, transparent 30%),
+                radial-gradient(circle at 80% 30%, #7b2cbf, transparent 30%),
+                radial-gradient(circle at 50% 80%, #d946ef, transparent 30%),
+                #080808;
+
+            background-size: 200% 200%;
+
+            animation: moverFondo 12s ease-in-out infinite;
+        }
+
+
+        /* =========================
+           FONDO ANIMADO
+        ========================= */
+
+        @keyframes moverFondo {
+
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+
+        }
+
+
+        /* =========================
+           ESTRELLAS
+        ========================= */
+
+        .estrella {
+            position: fixed;
+
+            width: 4px;
+            height: 4px;
+
+            background: white;
+
+            border-radius: 50%;
+
+            box-shadow: 0 0 10px white;
+
+            animation: parpadear 2s infinite alternate;
+
+            z-index: 0;
+        }
+
+        .estrella:nth-child(1) {
+            top: 15%;
+            left: 10%;
+        }
+
+        .estrella:nth-child(2) {
+            top: 30%;
+            left: 85%;
+
+            animation-delay: 0.5s;
+        }
+
+        .estrella:nth-child(3) {
+            top: 70%;
+            left: 15%;
+
+            animation-delay: 1s;
+        }
+
+        .estrella:nth-child(4) {
+            top: 80%;
+            left: 90%;
+
+            animation-delay: 1.5s;
+        }
+
+        .estrella:nth-child(5) {
+            top: 45%;
+            left: 50%;
+
+            animation-delay: 0.8s;
+        }
+
+
+        @keyframes parpadear {
+
+            from {
+                opacity: 0.2;
+                transform: scale(0.7);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1.5);
+            }
+
+        }
+
+
+        /* =========================
+           CORAZONES
+        ========================= */
+
+        /* =========================
+   MUCHOS CORAZONES
+========================= */
+
+/* =========================
+   MUCHOS CORAZONES
+========================= */
+
+.corazones {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+.corazones span {
+    position: absolute;
+
+    bottom: -60px;
+
+    font-size: 25px;
+
+    opacity: 0.7;
+
+    animation: corazonesSubir linear infinite;
+
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+}
+
+
+/* DIFERENTES POSICIONES */
+
+.corazones span:nth-child(1) {
+    left: 3%;
+    animation-duration: 9s;
+    animation-delay: 0s;
+}
+
+.corazones span:nth-child(2) {
+    left: 8%;
+    animation-duration: 13s;
+    animation-delay: 2s;
+}
+
+.corazones span:nth-child(3) {
+    left: 13%;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+
+.corazones span:nth-child(4) {
+    left: 18%;
+    animation-duration: 15s;
+    animation-delay: 1s;
+}
+
+.corazones span:nth-child(5) {
+    left: 23%;
+    animation-duration: 11s;
+    animation-delay: 4s;
+}
+
+.corazones span:nth-child(6) {
+    left: 28%;
+    animation-duration: 14s;
+    animation-delay: 7s;
+}
+
+.corazones span:nth-child(7) {
+    left: 33%;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+.corazones span:nth-child(8) {
+    left: 38%;
+    animation-duration: 12s;
+    animation-delay: 6s;
+}
+
+.corazones span:nth-child(9) {
+    left: 43%;
+    animation-duration: 16s;
+    animation-delay: 1s;
+}
+
+.corazones span:nth-child(10) {
+    left: 48%;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+
+.corazones span:nth-child(11) {
+    left: 53%;
+    animation-duration: 13s;
+    animation-delay: 2s;
+}
+
+.corazones span:nth-child(12) {
+    left: 58%;
+    animation-duration: 15s;
+    animation-delay: 8s;
+}
+
+.corazones span:nth-child(13) {
+    left: 63%;
+    animation-duration: 11s;
+    animation-delay: 4s;
+}
+
+.corazones span:nth-child(14) {
+    left: 68%;
+    animation-duration: 14s;
+    animation-delay: 1s;
+}
+
+.corazones span:nth-child(15) {
+    left: 73%;
+    animation-duration: 9s;
+    animation-delay: 6s;
+}
+
+.corazones span:nth-child(16) {
+    left: 78%;
+    animation-duration: 12s;
+    animation-delay: 3s;
+}
+
+.corazones span:nth-child(17) {
+    left: 83%;
+    animation-duration: 16s;
+    animation-delay: 7s;
+}
+
+.corazones span:nth-child(18) {
+    left: 88%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+.corazones span:nth-child(19) {
+    left: 93%;
+    animation-duration: 14s;
+    animation-delay: 5s;
+}
+
+.corazones span:nth-child(20) {
+    left: 97%;
+    animation-duration: 11s;
+    animation-delay: 8s;
+}
+
+.corazones span:nth-child(21) {
+    left: 15%;
+    animation-duration: 17s;
+    animation-delay: 9s;
+}
+
+.corazones span:nth-child(22) {
+    left: 40%;
+    animation-duration: 13s;
+    animation-delay: 10s;
+}
+
+.corazones span:nth-child(23) {
+    left: 65%;
+    animation-duration: 16s;
+    animation-delay: 11s;
+}
+
+.corazones span:nth-child(24) {
+    left: 90%;
+    animation-duration: 12s;
+    animation-delay: 9s;
+}
+
+
+@keyframes corazonesSubir {
+
+    0% {
+        transform: translateY(0) rotate(0deg) scale(0.7);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(-50vh) rotate(180deg) scale(1);
+    }
+
+    100% {
+        transform: translateY(-115vh) rotate(360deg) scale(0.6);
+        opacity: 0;
+    }
+
+}
+
+@keyframes corazonesSubir {
+
+    0% {
+        transform: translateY(0) rotate(0deg) scale(0.7);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(-50vh) rotate(180deg) scale(1);
+    }
+
+    100% {
+        transform: translateY(-115vh) rotate(360deg) scale(0.6);
+        opacity: 0;
+    }
+
+}
+
+
+        @keyframes subir {
+
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(-110vh) rotate(360deg);
+                opacity: 0;
+            }
+
+        }
+
+
+        /* =========================
+           PORTADA
+        ========================= */
+
+        .portada {
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            padding: 20px;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+
+        /* =========================
+           TÍTULO
+        ========================= */
+
+        h1 {
+            font-size: 50px;
+
+            margin: 0 0 15px;
+
+            color: white;
+
+            text-shadow:
+                0 0 10px #d946ef,
+                0 0 25px #a855f7,
+                0 0 45px #7b2cbf;
+        }
+
+
+        /* =========================
+           TEXTO
+        ========================= */
+
+        .subtitulo {
+
+            font-size: 21px;
+
+            max-width: 700px;
+
+            line-height: 1.6;
+
+            color: #f3d9ff;
+
+            margin: 0 0 20px;
+
+        }
+
+
+        /* =========================
+           FOTO
+        ========================= */
+
+        .foto-nosotros {
+
+            width: 250px;
+            height: 250px;
+
+            object-fit: cover;
+
+            display: block;
+
+            border-radius: 50%;
+
+            border: 5px solid white;
+
+            margin: 20px auto;
+
+            box-shadow:
+                0 0 15px #a855f7,
+                0 0 35px #7b2cbf,
+                0 0 60px rgba(155, 89, 255, 0.6);
+
+            transition: 0.4s;
+
+        }
+
+
+        .foto-nosotros:hover {
+
+            transform: scale(1.08);
+
+            box-shadow:
+                0 0 25px white,
+                0 0 50px #d946ef,
+                0 0 80px #7b2cbf;
+
+        }
+
+
+        /* =========================
+           FECHA
+        ========================= */
+
+        .fecha {
+
+            font-size: 20px;
+
+            color: #e9b3ff;
+
+            margin: 5px 0 20px;
+
+        }
+
+
+        /* =========================
+           BOTÓN
+        ========================= */
+
+        .boton {
+
+            display: inline-block;
+
+            padding: 14px 30px;
+
+            background: linear-gradient(
+                45deg,
+                #9b59b6,
+                #d946ef
+            );
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 30px;
+
+            font-weight: bold;
+
+            font-size: 17px;
+
+            box-shadow:
+                0 0 15px rgba(217, 70, 239, 0.5);
+
+            transition: 0.3s;
+
+        }
+
+
+        .boton:hover {
+
+            transform: scale(1.08);
+
+            box-shadow:
+                0 0 20px #d946ef,
+                0 0 40px #a855f7;
+
+        }
+
+
+        /* =========================
+           CELULAR
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .subtitulo {
+                font-size: 17px;
+            }
+
+            .foto-nosotros {
+                width: 210px;
+                height: 210px;
+            }
+
+            .fecha {
+                font-size: 17px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- ESTRELLAS -->
+
+    <div class="estrella"></div>
+    <div class="estrella"></div>
+    <div class="estrella"></div>
+    <div class="estrella"></div>
+    <div class="estrella"></div>
+
+
+    <!-- CORAZONES -->
+
+    <!-- CORAZONES FLOTANDO -->
+
+<div class="corazones">
+
+    <span>❤️</span>
+    <span>💜</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>❤️</span>
+    <span>💜</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>❤️</span>
+    <span>💜</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>❤️</span>
+    <span>💜</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>❤️</span>
+    <span>💜</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+
+</div>
+
+
+    <!-- =========================
+         ÚNICA PÁGINA DE INICIO
+    ========================= -->
+
+    <main class="portada">
+
+        <h1>
+            Para el amor de mi vida ❤️
+        </h1>
+
+
+        <p class="subtitulo">
+            Desde que llegaste a mi vida,
+            hay momentos que simplemente
+            se sienten más bonitos.
+        </p>
+
+
+        <img
+            src="Imagen/Nosotros.jpg"
+            alt="Nosotros"
+            class="foto-nosotros"
+        >
+
+
+        <p class="fecha">
+            ❤️ 7 de mayo de 2026 ❤️
+        </p>
+
+
+        <!-- ESTE BOTÓN ABRE LA SEGUNDA PÁGINA -->
+
+        <a
+            href="historia.html"
+            class="boton"
+        >
+            ↓ Ver nuestra historia
+        </a>
+
+    </main>
+
+</body>
+
+</html>
